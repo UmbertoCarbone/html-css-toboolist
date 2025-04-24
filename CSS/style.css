@@ -7,8 +7,12 @@
 }
 
 
+
+
 body {
     background-color: lightgray;
+      font-family: "Roboto", sans-serif;
+    
 }
 
 header {
@@ -26,6 +30,8 @@ main {
     background: #FFF;
     margin: 0 auto;
     width: 80%;
+    
+ 
 }
 
 main h1 {
@@ -48,13 +54,87 @@ button {
     background-color: #47ADF1;
     color: white
     
+    
 }
 
 .button2 {
     background-color: white;
     border:2px solid grey;
     color: gray
+}
 
+li {
+    list-style: none;
+}
+
+
+.green {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    border: 0.5px solid;
+    display: inline-block;
+    vertical-align: middle;
+    color: green
+    }
+
+  .red {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    border: 0.5px solid;
+    display: inline-block;
+    vertical-align: middle;
     
+    color: red
+  }
 
+  .fake-button-editorial {
+    display: inline-block;
+  padding: 6px 13px;
+  border-radius: 20px;
+  background-color:#47ADF1;
+  color: white;
+  }
+
+  .fake-button-q1-goals {
+    
+    display: inline-block;
+    padding: 6px 13px;
+    border-radius: 20px;
+    background-color:#9C72E4;
+    color: white;
+}
+   
+.fake-button-recruiting {
+    display: inline-block;
+    padding: 6px 13px;
+    border-radius: 20px;
+    background-color:#64C0A9;
+    color: white;
+    }
+    .fake-button-mobiles {
+        display: inline-block;
+    padding: 6px 13px;
+    border-radius: 20px;
+    background-color:#F29E33;
+    color: white;
+}
+.fake-button-website {
+    display: inline-block;
+    padding: 6px 13px;
+    border-radius: 20px;
+    background-color:#D863A1;
+    color: white;
+}
+.fake-button-sales {
+    display: inline-block;
+    padding: 6px 13px;
+    border-radius: 20px;
+    background-color:#B0C926;
+    color: white; 
 }
